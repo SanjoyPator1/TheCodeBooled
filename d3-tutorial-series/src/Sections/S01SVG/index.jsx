@@ -7,8 +7,8 @@ const S01SVG = () => {
     <div>
       <h2>Section 01 SVG</h2>
       <E01CommonSvgElements />
-      <br/>
-      <E02Path/>
+      <br />
+      <E02Path />
     </div>
   )
 }
