@@ -19,26 +19,27 @@ const E03selectionSelect = () => {
 
         const allDivs = d3.selectAll('.class-1')
         // console.log({allDivs})
+        allDivs.style("border","1px solid gray")
 
         const allDivsFirstP = allDivs.select('p')
         // console.log({allDivsFirstP})
 
-        allDivsFirstP.style("color",'green')
+        allDivsFirstP.style("color",'#F2ACE0')
 
     }, [])
 
     return (
-        <div>
+        <div style={{display:"flex", flexDirection:"column", gap:"0.5rem"}}>
             <h3>E03 selection.Select</h3>
-            <div className='class-1'>
-                first div
+            <div className='class-1'  style={{width:"fit-content", padding:"0.5rem"}}>
+                first div<br />
                 <a>link 1</a><br />
                 <p>first p</p>
                 <p>second p</p>
                 <a> link 2</a>
             </div>
-            <div className='class-1'>
-                second div
+            <div className='class-1' style={{width:"fit-content", padding:"0.5rem"}}>
+                second div<br />
                 <a>link 1</a><br />
                 <p>first p</p>
                 <p>second p</p>

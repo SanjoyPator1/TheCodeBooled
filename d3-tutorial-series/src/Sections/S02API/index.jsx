@@ -4,6 +4,11 @@ import E02d3selectAll from './E02d3selectAll'
 import E03selectionSelect from './E03selectionSelect'
 import E04selectionSelectAll from './E04selectionSelectAll'
 import E05selectionWithUseRef from './E05selectionWithUseRef'
+import E06dataBinding from './E06dataBinding'
+import E07attStyle from './E07attStyle'
+import E08reverseGraph from './E08reverseGraph'
+import E09createDomElementsFromData from './E09createDomElementsFromData'
+import E10translateAndPosition from './E10translateAndPosition'
 
 const S02API = () => {
     return (
@@ -18,6 +23,16 @@ const S02API = () => {
             <E04selectionSelectAll/>
             <br/>
             <E05selectionWithUseRef/>
+            <br/>
+            <E06dataBinding/>
+            <br/>
+            <E07attStyle/>
+            <br/>
+            <E08reverseGraph/>
+            <br/>
+            <E09createDomElementsFromData/>
+            <br/>
+            <E10translateAndPosition/>
         </div>
     )
 }

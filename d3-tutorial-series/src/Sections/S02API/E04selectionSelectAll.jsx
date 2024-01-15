@@ -5,12 +5,12 @@ const E04selectionSelectAll = () => {
 
     useEffect(() => {
         const allDivs2 = d3.selectAll('.class-2')
-        console.log({allDivs2})
+        // console.log({allDivs2})
 
         allDivs2.style("border", "2px solid pink")
 
         const allDivs2AllP = allDivs2.selectAll('p')
-        console.log({allDivs2AllP})
+        // console.log({allDivs2AllP})
 
         allDivs2AllP.style("color", "blue")
 

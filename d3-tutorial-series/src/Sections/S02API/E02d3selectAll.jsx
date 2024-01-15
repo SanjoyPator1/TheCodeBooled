@@ -20,7 +20,7 @@ const E02d3selectAll = () => {
 
     return (
         <div>
-            <h3>E02 d3.select</h3>
+            <h3>E02 d3.selectAll</h3>
             <p>first p</p>
             <a>absbasa</a> <br/>
             <a>iiji</a>
