@@ -17,23 +17,25 @@ const E04selectionSelectAll = () => {
     }, [])
 
     return (
-        <div>
+        <>
             <h3>E04 selection.SelectAll</h3>
-            <div className='class-2'>
-                first div<br />
-                <a>link 1</a><br />
-                <p>first p</p>
-                <p>second p</p>
-                <a> link 2</a>
+            <div style={{ display: "flex", gap: "0.5rem", width: "fit-content" }}>
+                <div className='class-2' style={{ padding: "0.5rem", }}>
+                    first div<br />
+                    <a>link 1</a><br />
+                    <p>first p</p>
+                    <p>second p</p>
+                    <a> link 2</a>
+                </div>
+                <div className='class-2' style={{ padding: "0.5rem" }}>
+                    second div<br />
+                    <a>link 1</a><br />
+                    <p>first p</p>
+                    <p>second p</p>
+                    <a> link 2</a>
+                </div>
             </div>
-            <div className='class-2'>
-                second div<br />
-                <a>link 1</a><br />
-                <p>first p</p>
-                <p>second p</p>
-                <a> link 2</a>
-            </div>
-        </div>
+        </>
     )
 }
 
