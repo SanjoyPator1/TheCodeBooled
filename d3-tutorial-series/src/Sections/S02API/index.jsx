@@ -8,6 +8,8 @@ import E06dataBinding from './E06dataBinding'
 import E07attStyle from './E07attStyle'
 import E08reverseGraph from './E08reverseGraph'
 import E09createDomElementsFromData from './E09createDomElementsFromData'
+import E11styleBarGraphInD3 from './E11styleBarGraphInD3'
+import E12PieChart from './E12PieChart'
 import E10translateAndPosition from './E10translateAndPosition'
 
 const S02API = () => {
@@ -33,6 +35,11 @@ const S02API = () => {
             <E09createDomElementsFromData/>
             <br/>
             <E10translateAndPosition/>
+            <br/>
+            <E11styleBarGraphInD3/>
+            <br/>
+            <E12PieChart/>
+            
         </div>
     )
 }

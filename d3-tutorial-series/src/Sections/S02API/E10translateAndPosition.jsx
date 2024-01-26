@@ -12,7 +12,7 @@ const E10translateAndPosition = () => {
 
     //only for translate
     useEffect(() => {
-        console.log("meow calling translate ",{x},{y})
+        // console.log("meow calling translate ",{x},{y})
         const svgBox = d3.select(svgRefBox.current)
 
         svgBox.select("rect")
@@ -86,9 +86,12 @@ const E10translateAndPosition = () => {
                 justifyContent: "center",
                 alignItems: "center",
                 flexDirection: "column",
+                width:"fit-content",
             }}
         >
-            <div style={{ width: "100%" }}>
+            <div style={{
+                width: "100%",
+            }}>
                 <h3>E10 translate and position</h3>
             </div>
 
@@ -117,10 +120,10 @@ const E10translateAndPosition = () => {
                 style={{
                     display: "flex",
                     flexDirection: "row",
-                    justifyContent: "center",
+                    justifyContent: "flex-start",
                     alignItems: "center",
                     height: "200px",
-                    width: "100%",
+                    width: "fix-content",
                 }}
             >
                 {/*y slider*/}
